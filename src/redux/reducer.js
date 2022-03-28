@@ -5,7 +5,7 @@ const initialState = {
   last: 0,
   changeCount: 0,
   average: 0,
-  time: getHourMinuteSecond(),
+  time: "",
 };
 
 export default function reducer(state = initialState, action) {
